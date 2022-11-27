@@ -12,13 +12,16 @@
     6. >>(오른쪽 SHIFT) : 비트 단위로 오른쪽으로 N비트 이동하며
                         2의 N 거듭제곱만큼 나눗셈
 '''
-a = 3
+a = 6
 b = 5
 print('a & b : {}'.format(a & b))
 print('a | b : {}'.format(a | b))
 print('a ^ b : {}'.format(a ^ b))
 print('~a : {}'.format(~a))
 
+print('~a : {}'.format(~a))
+print('a << {}'.format(a << 1))
+print('a >> {}'.format(a >> 1))
 
 
 
