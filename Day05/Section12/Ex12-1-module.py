@@ -5,8 +5,10 @@
 모듈 사용법
 import 모듈명
 '''
+from setuptools._distutils.command.config import config
 
 import converter
+
 miles = converter.kilometer_to_miles(150)
 print('150km={}miles'.format(miles))
 
